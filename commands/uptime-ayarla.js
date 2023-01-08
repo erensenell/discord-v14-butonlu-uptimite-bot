@@ -1,7 +1,7 @@
 const { Client, EmbedBuilder, PermissionsBitField } = require("discord.js");
 const louritydb = require("croxydb")
 const Discord = require("discord.js")
-// Lourity
+// erensenell
 module.exports = {
     name: "uptime-ayarla",
     description: "Uptime sistemini ayarlarsınız",
