@@ -11,8 +11,8 @@ const client = new Client({
     partials: PARTIALS,
     retryLimit: 3
 });
-// Lourity gelişmiş uptime botu :)
-// discord.gg/altyapilar
+// Yazılım Koloniği gelişmiş uptime botu :)
+// inktr.ee/yazilimkolonigi
 global.client = client;
 client.commands = (global.commands = []);
 
@@ -158,7 +158,7 @@ client.on('interactionCreate', async interaction => {
                 }).catch(e => { })
             }
         }
-        // LİMİT AYARLARI BURADAN YAPILIR - LOURİTY <3
+        // LİMİT AYARLARI BURADAN YAPILIR 
         if (interaction.member.roles.cache.has(ozelrol)) {
             if (louritydb.fetch(`uptimeLinks_${interaction.user.id}`).length >= 5) {
                 return interaction.reply({
